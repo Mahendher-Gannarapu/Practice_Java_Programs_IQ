@@ -1,4 +1,4 @@
-//30.	Write a Java program to convert uppercase to lowercase and vice versa
+// Write a Java program to convert uppercase to lowercase and vice versa
 // (𝗘𝘅𝗮𝗺𝗽𝗹𝗲: Input :HexAwarE → Output: hEXaWARe).
 package Coding_Preparation_.Practice_IQ_Programs;
 

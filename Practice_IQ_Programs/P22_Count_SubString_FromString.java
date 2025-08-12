@@ -11,7 +11,7 @@ public class P22_Count_SubString_FromString {
         String[] parts = str.split("@#%");
 
         // Number of times "@#%" appears = number of splits - 1
-        int count = parts.length - 1;
+        int count = parts.length;
 
         System.out.println("Count of '@#%' is: " + count);
 
