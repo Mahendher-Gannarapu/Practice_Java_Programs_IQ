@@ -15,6 +15,8 @@ public class P31_Print_List_WithOut_Duplicates {
         mergedSet.addAll(Arrays.asList(arr1));
         mergedSet.addAll(Arrays.asList(arr2));
 
+        System.out.println("Merged list without duplicates: " + mergedSet);
+
         // Convert back to List if needed
         List<String> mergedList = new ArrayList<>(mergedSet);
 

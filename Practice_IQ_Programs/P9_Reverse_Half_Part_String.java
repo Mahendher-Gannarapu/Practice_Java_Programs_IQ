@@ -21,7 +21,7 @@ public class P9_Reverse_Half_Part_String {
         //String first_half = str.substring(0,mid);
         //System.out.println(first_half);
 
-        //print mid to last letter
+        //print mid to last word
         //String second_half = str.substring(mid);
         //System.out.println(second_half);
     }
