@@ -12,5 +12,15 @@ public class P19_Separate_Lower_Upper_letters {
         System.out.println("lower letters: "+lower+ " count :" +lower.length());
         System.out.println("upper letters: "+upper+ " count :" +upper.length());
 
+//        int upper = 0, lower = 0;
+//
+//        for (char ch : str.toCharArray()) {
+//            if (Character.isUpperCase(ch)) upper++;
+//            else if (Character.isLowerCase(ch)) lower++;
+//        }
+//
+//        System.out.println("Uppercase Letters: " + upper);
+//        System.out.println("Lowercase Letters: " + lower);
     }
 }
+
