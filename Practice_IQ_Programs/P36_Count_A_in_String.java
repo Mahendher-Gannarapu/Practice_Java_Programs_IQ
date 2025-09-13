@@ -1,5 +1,5 @@
 package Coding_Preparation_.Practice_IQ_Programs;
-
+//Find A and count how many times repeating
 public class P36_Count_A_in_String {
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-// Example: input could be "5 test 200 hello 999 done"
+// Example: input could be "5 test 200 hello 999 done" print 2nd number onwards output: 200 999
 package Coding_Preparation_.Practice_IQ_Programs;
 
 public class P33_PrintNumbersOnlyExceptFirstNumber_Perficient {
