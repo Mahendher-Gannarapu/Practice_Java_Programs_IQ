@@ -22,6 +22,7 @@ public class P13_Duplicate_item_From_List {
         Set<String> merge1 = new HashSet(list2);
 
         merge.retainAll(merge1);
+        //merge.addAll(merge1);
 
         System.out.println(merge);
     }

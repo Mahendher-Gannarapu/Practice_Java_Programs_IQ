@@ -8,7 +8,7 @@ public class P1_Frequency_Each_Char_Count {
     public static void main(String[] args) {
 
         String input = "Mahendher Gannarapu";
-
+        //LinkedHashMap is used because it maintains the order of insertion.
         Map<Character,Integer> fre = new LinkedHashMap<>();
         for(char ch : input.toCharArray())
         {
