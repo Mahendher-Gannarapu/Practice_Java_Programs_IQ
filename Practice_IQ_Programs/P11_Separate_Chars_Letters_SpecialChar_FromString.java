@@ -16,7 +16,7 @@ public class P11_Separate_Chars_Letters_SpecialChar_FromString {
 }
 
 
-public class SeparateCharacters {
+/* public class SeparateCharacters {
     public static void main(String[] args) {
         String str = "Mahi123@#$";
         String letters = "";
@@ -41,3 +41,4 @@ public class SeparateCharacters {
     }
 }
 
+*/
