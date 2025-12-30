@@ -7,7 +7,7 @@ class AgeInValidException extends Exception
         super(msg);
     }
 }
-public class P46_Cretae_Custom_Exception {
+public class P46_Cretae_Custom_Exception_throw {
     public static void main(String[] args) throws AgeInValidException
     {
             int age=16;
