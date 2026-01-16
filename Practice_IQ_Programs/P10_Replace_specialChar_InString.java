@@ -6,38 +6,16 @@ import java.util.Scanner;
 
 public class P10_Replace_specialChar_InString {
     public static void main(String[] args) {
-//         This is hardcoded
-//        String str = "Mahendher";
-//        String result = str.replace('e','@')
-//                        .replace('h','$');
-//        System.out.println(result);
+        String str = "Mahendher";
+        String result = str.replace('e', '@')
+                .replace('h', '$');
+        System.out.println(result);
 
-//        String str ="tomorrow";
-//        String result = str.replace('o','3')
-//                .replace('r','2');
-//        System.out.println(result);
+        String str1 = "tomorrow";
+        String result1 = str1.replace('o', '3')
+                .replace('r', '2');
+        System.out.println(result1);
 
-        //    If dynamically changed
-        Scanner input = new Scanner(System.in);
-        System.out.println("Please enter a string: ");
-        String str = input.nextLine();
-
-        StringBuilder result = new StringBuilder();
-        for (char ch : str.toCharArray())
-        {
-            if (ch == 'a' || ch == 'A' || ch == 'u' || ch == 'U')
-            {
-                result.append('$');
-            }
-            else if(ch== 's' || ch == 'S')
-            {
-                result.append('@');
-            }
-            else
-            {
-                result.append(ch);
-            }
-        }
-        System.out.println("Modified result :" +result.toString());
     }
 }
+
