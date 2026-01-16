@@ -22,10 +22,10 @@ class Main {
         String[] words = str.split(" ");
         String rev = "";
 
-        String firstword = words[1];
+        String mid_word = words[1];
 
-        for (int i = firstword.length() - 1; i >= 0; i--) {
-            rev = rev + firstword.charAt(i);
+        for (int i = mid_word.length() - 1; i >= 0; i--) {
+            rev = rev + mid_word.charAt(i);
         }
         // System.out.print(rev + " ");
 

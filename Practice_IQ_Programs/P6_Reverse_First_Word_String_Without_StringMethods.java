@@ -14,7 +14,7 @@ public class P6_Reverse_First_Word_String_Without_StringMethods {
         }
         System.out.print(rev + " ");
 
-        for (int i = 1; i < words.length ; i++) {
+        for (int i = 1; i <words.length ; i++) {
             System.out.print(words[i] + " ");
         }
     }
