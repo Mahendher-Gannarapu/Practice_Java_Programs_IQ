@@ -1,3 +1,7 @@
+//Cap Gemini interview question on 08-10-2025
+//"Java Automation Testing"
+//"Java Automation gnitseT" without using predefined methods
+
 package Coding_Preparation_.Practice_IQ_Programs;
 
 public class P7_Reverse_Last_Word_String_Without_StringMethods {
