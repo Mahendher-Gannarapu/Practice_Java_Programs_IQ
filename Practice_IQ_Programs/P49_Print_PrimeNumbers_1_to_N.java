@@ -1,4 +1,4 @@
-/*
+/* Asked
 “I loop through numbers from 1 to 50.
 For each number, I count how many divisors it has.
 If a number has exactly 2 divisors (1 and itself), it is prime.”
