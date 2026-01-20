@@ -1,5 +1,5 @@
 package Coding_Preparation_.Practice_IQ_Programs;
-// Cognizant Interview Question
+// Cognizant Interview Question REVERSE THE ARRAY
 public class P41_ReverseEx
 {
     public static void main(String[] args)
