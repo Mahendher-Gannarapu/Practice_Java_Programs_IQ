@@ -3,14 +3,23 @@ package Coding_Preparation_.Practice_IQ_Programs;
 public class P38_Find_Max_Min_From_Array {
     public static void main(String[] args) {
 
-        int[] arr = {7,2,6,8,9,4,3};
+        int[] arr = {7,2,6,8,9,4,3,6, 3};
         int max = arr[0] , min =arr[0];
+
+        System.out.print("Duplicate elements in the array: ");
         for(int i = 1; i < arr.length; i++){
             if(arr[i] > max){
                 max = arr[i];
             }
             if(arr[i] < min){
                 min = arr[i];
+            }
+
+
+            for(int j=i+1; j < arr.length; j++){
+                if(arr[i] == arr[j]){
+                    System.out.println(arr[i] + " ");
+                }
             }
         }
         System.out.println("Max : "+max);

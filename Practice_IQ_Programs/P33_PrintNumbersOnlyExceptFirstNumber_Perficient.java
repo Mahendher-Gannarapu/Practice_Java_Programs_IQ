@@ -1,5 +1,5 @@
 // Example: input could be "1 test 30 hello 315 done" print 2nd number onwards
-// output : 200 999
+// output : 30 315
 package Coding_Preparation_.Practice_IQ_Programs;
 
 public class P33_PrintNumbersOnlyExceptFirstNumber_Perficient {

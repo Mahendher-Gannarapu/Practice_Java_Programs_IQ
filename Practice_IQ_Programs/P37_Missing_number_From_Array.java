@@ -3,7 +3,7 @@ package Coding_Preparation_.Practice_IQ_Programs;
 
 public class P37_Missing_number_From_Array {
     public static void main(String[] args) {
-        int[] arr = {2, 6, 4, 8, 12};
+        int[] arr = {12, 14, 11, 10};
 
         // Sort in ascending order (for finding missing element)
         for (int i = 0; i < arr.length; i++) {
